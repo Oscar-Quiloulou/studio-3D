@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #111;
+  overflow: hidden;
+  font-family: system-ui, sans-serif;
+  color: #eee;
+}
+#app {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+#hud {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  display: grid;
+  gap: 8px;
+  z-index: 10;
+}
+.panel {
+  background: rgba(0,0,0,0.5);
+  border: 1px solid #333;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+input[type="file"] {
+  margin-left: 8px;
+}
