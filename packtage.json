@@ -1,0 +1,17 @@
+{
+  "name": "my-3d-game",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "win": "npm run build && cd electron && npm run make"
+  },
+  "dependencies": {
+    "three": "^0.164.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
